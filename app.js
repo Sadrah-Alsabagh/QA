@@ -31,10 +31,10 @@ function getMark(score) {
           break;
         case roundedGrade <= 60:
     
-          msg = `Failed with mark D (${roundedGrade})`;
+          msg = `Passed with mark D (${roundedGrade})`;
           break;
         case roundedGrade <= 70:
-          msg = `Failed with mark C (${roundedGrade})`;
+          msg = `Passed with mark C (${roundedGrade})`;
           break;
         case roundedGrade <= 80:
           msg = `Passed with mark B (${roundedGrade})`;
